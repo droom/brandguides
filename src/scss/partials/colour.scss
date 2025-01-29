@@ -1,0 +1,57 @@
+$type: white;
+
+$coral: #F8511D;
+$yellow: #FABB15;
+
+$orange: #C85B28;
+$purple: #8C74CA;
+$grey: #222222;
+
+
+
+$two: #053fc7;
+$three: #eec0da;
+$blue: #AACAC8;
+
+
+nav ol li{
+  color: $type;
+  opacity: 0.5;
+  transition: all ease 300ms;
+}
+
+nav ol li:hover{
+  opacity: 0.9;
+}
+
+.cell {
+  &:nth-child(1) {
+    background: $orange;
+  }
+  &:nth-child(2) {
+    background: $grey;
+  }
+  &:nth-child(3) {
+    background: $blue;
+  }
+  &:nth-child(4) {
+    background: $yellow;
+  }
+  &:nth-child(5) {
+    background: $three;
+  }
+}
+
+
+
+h1 {
+  color: $type;
+}
+h2 {
+  color: $type;
+}
+h3 {
+  color: $type;
+  color: $grey;
+
+}
